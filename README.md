@@ -1,0 +1,1 @@
+# Alax frontend Javascript
