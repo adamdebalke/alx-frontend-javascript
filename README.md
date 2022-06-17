@@ -1,1 +1,1 @@
-# Alax frontend Javascript
+# Alx frontend Javascript
