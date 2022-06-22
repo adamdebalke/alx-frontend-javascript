@@ -46,14 +46,7 @@ function createEmployee(salary: number | string): Director | Teacher {
   }
 }
 
-function isDirector(employee: any) {
-  return employee instanceof Director;
-}
 
-function executeWork(employee: Teacher | Director): void {
-  if (employee instanceof Director) employee.workDirectorTasks();
-  else if (employee instanceof Teacher) employee.workTeacherTasks();
-}
 
 type Subjects = 'Math' | 'History';
 
